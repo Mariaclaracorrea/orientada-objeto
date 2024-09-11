@@ -8,6 +8,7 @@ public class Carro_01 {
 	int quantiPassageiro;
 	int porta;
 	int rodas;
+	String carro;
 
 	public String modelo() {
 		return modelo;
@@ -55,5 +56,10 @@ public class Carro_01 {
 	
 	public void getPorta(int porta) {
 		this.porta = porta;
+	}
+
+	public void setRodas(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 }
